@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("./movie.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1{
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+form {
+  background-color:white;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-link{
+  flex: 1;
+  padding: 9.9px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.button-link:last-child {
+  margin-right: 0;
+}
+.button-link:hover {
+  background-color: #000000;
+}
+.link{
+  color: #fff;
+  text-decoration: none;
+}
+
+.link:last-child {
+  margin-right: 0;
+}
+.link:hover {
+  background-color: #000000;
+}
